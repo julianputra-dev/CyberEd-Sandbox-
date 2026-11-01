@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ModuleItem } from '@/data/modulesData';
 import { Badge } from '@/components/ui/Badge';
@@ -150,15 +151,17 @@ export const ModuleCard: React.FC<ModuleCardProps> = ({ module, isTheoryDone }) 
           Sub-materi interaktif
         </span>
 
-        <Button
-          variant="primary"
-          size="sm"
-          className="text-xs h-7.5 px-3 font-sans group/btn shadow-[0_0_12px_rgba(255,255,255,0.06)] hover:shadow-[0_0_16px_rgba(255,255,255,0.12)] transition-shadow"
-        >
-          <BookOpen className="h-3 w-3 mr-1 text-zinc-950" strokeWidth={1.75} />
-          <span>Buka Modul 0{module.order}</span>
-          <ArrowRight className="h-3 w-3 ml-1 text-zinc-950 group-hover/btn:translate-x-0.5 transition-transform" strokeWidth={1.75} />
-        </Button>
+        <Link href={`/materi/${module.id}`}>
+          <Button
+            variant="primary"
+            size="sm"
+            className="text-xs h-7.5 px-3 font-sans group/btn shadow-[0_0_12px_rgba(255,255,255,0.06)] hover:shadow-[0_0_16px_rgba(255,255,255,0.12)] transition-shadow"
+          >
+            <BookOpen className="h-3 w-3 mr-1 text-zinc-950" strokeWidth={1.75} />
+            <span>Buka Modul 0{module.order}</span>
+            <ArrowRight className="h-3 w-3 ml-1 text-zinc-950 group-hover/btn:translate-x-0.5 transition-transform" strokeWidth={1.75} />
+          </Button>
+        </Link>
       </div>
     </motion.div>
   );
