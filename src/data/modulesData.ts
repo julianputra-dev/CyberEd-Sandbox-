@@ -112,19 +112,19 @@ export const MODULES_DATA: ModuleItem[] = [
     id: 'modul-6',
     order: 6,
     title: 'Keamanan Aplikasi & Web (OWASP Top 10)',
-    tagline: 'Eksplorasi celah SQL Injection, Stored XSS, dan implementasi sanitasi',
+    tagline: 'Injeksi SQL, manipulasi XSS, serangan DDoS, serta pembajakan sesi',
     description:
-      'Prinsip emas rekayasa perangkat lunak aman: jangan pernah mempercayai input pengguna mentah. Pelajari bagaimana payload manipulasi logika SQLi dan skrip injeksi XSS ditangkal dengan prepared statement.',
+      'Membedah celah keamanan aplikasi web: manipulasi logika SQL Injection, injeksi skrip XSS, banjir lalu lintas DDoS, serta teknik pembajakan dan fiksasi sesi pengguna.',
     category: 'Keamanan Perangkat Lunak',
     labMode: 'PRAKTIKUM',
     labTitle: 'Audit Celah Aplikasi Web & Penerapan Sanitasi',
     labSummary:
       'Inspeksi transmisi payload SQLi pada form login tiruan, uji mitigasi sanitasi teks komentar XSS, dan perbaiki kode backend virtual menggunakan Parameterized Queries.',
-    estimatedTime: '20 Menit',
+    estimatedTime: '30 Menit',
     badgeName: 'AppSec Engineer',
     badgeIcon: 'CodeXml',
     accentColor: 'from-amber-500/20 to-yellow-500/20',
-    keyConcepts: ['SQL Injection', 'Cross-Site Scripting (XSS)', 'Input Sanitization', 'Parameterized Query'],
+    keyConcepts: ['OWASP Top 10', 'SQL Injection', 'Cross-Site Scripting (XSS)', 'DDoS Attacks', 'Session Manipulation'],
   },
   {
     id: 'modul-7',
@@ -145,4 +145,3 @@ export const MODULES_DATA: ModuleItem[] = [
     keyConcepts: ['Incident Response Cycle', 'Order of Volatility', 'SIEM Event Log', 'Time-Travel Triage'],
   },
 ];
-
