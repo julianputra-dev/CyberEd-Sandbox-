@@ -11,7 +11,7 @@ import { TooltipText } from '@/components/materi/TooltipText';
 import { MnemonikConfidentiality } from '@/components/materi/mnemonik/modul-1/MnemonikConfidentiality';
 import { MnemonikIntegrity } from '@/components/materi/mnemonik/modul-1/MnemonikIntegrity';
 import { MnemonikAvailability } from '@/components/materi/mnemonik/modul-1/MnemonikAvailability';
-import { RiskMatrixDemo } from '@/components/materi/RiskMatrixDemo';
+import { RiskMatrixDemo } from '@/components/materi/modul-1/RiskMatrixDemo';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 
 const MODULE_ID = 'modul-1';

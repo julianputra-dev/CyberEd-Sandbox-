@@ -21,3 +21,4 @@ export * from './modul-5/MnemonikReverseShellRat';
 
 // Modul 6: Keamanan Aplikasi & Web
 export * from './modul-6/MnemonikGembokSqli';
+

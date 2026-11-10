@@ -10,8 +10,8 @@ import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
 import { MnemonikKriptografi } from '@/components/materi/mnemonik/modul-2/MnemonikKriptografi';
 import { MnemonikSteganografi } from '@/components/materi/mnemonik/modul-2/MnemonikSteganografi';
-import { MetodeSteganografi } from '@/components/materi/MetodeSteganografi';
-import { PerbandinganKriptoStegano } from '@/components/materi/PerbandinganKriptoStegano';
+import { MetodeSteganografi } from '@/components/materi/modul-2/MetodeSteganografi';
+import { PerbandinganKriptoStegano } from '@/components/materi/modul-2/PerbandinganKriptoStegano';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 
 const MODULE_ID = 'modul-2';

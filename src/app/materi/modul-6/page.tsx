@@ -29,11 +29,11 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
 import { MnemonikGembokSqli } from '@/components/materi/mnemonik/modul-6/MnemonikGembokSqli';
-import { VisualisatorXssViewer } from '@/components/materi/VisualisatorXssViewer';
-import { OwaspTop10Explorer } from '@/components/materi/OwaspTop10Explorer';
-import { PipelineSanitasiKueri } from '@/components/materi/PipelineSanitasiKueri';
-import { VisualisatorDdosViewer } from '@/components/materi/VisualisatorDdosViewer';
-import { VisualisatorManipulasiSesi } from '@/components/materi/VisualisatorManipulasiSesi';
+import { VisualisatorXssViewer } from '@/components/materi/modul-6/VisualisatorXssViewer';
+import { OwaspTop10Explorer } from '@/components/materi/modul-6/OwaspTop10Explorer';
+import { PipelineSanitasiKueri } from '@/components/materi/modul-6/PipelineSanitasiKueri';
+import { VisualisatorDdosViewer } from '@/components/materi/modul-6/VisualisatorDdosViewer';
+import { VisualisatorManipulasiSesi } from '@/components/materi/modul-6/VisualisatorManipulasiSesi';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 
 const MODULE_ID = 'modul-6';

@@ -9,10 +9,10 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
 import { MnemonikPortAnalog } from '@/components/materi/mnemonik/modul-4/MnemonikPortAnalog';
-import { TabelPortProtocol } from '@/components/materi/TabelPortProtocol';
-import { GenerasiFirewallViewer } from '@/components/materi/GenerasiFirewallViewer';
+import { TabelPortProtocol } from '@/components/materi/modul-4/TabelPortProtocol';
+import { GenerasiFirewallViewer } from '@/components/materi/modul-4/GenerasiFirewallViewer';
 import { MnemonikFirewallConveyor } from '@/components/materi/mnemonik/modul-4/MnemonikFirewallConveyor';
-import { SegmentasiDmzViewer } from '@/components/materi/SegmentasiDmzViewer';
+import { SegmentasiDmzViewer } from '@/components/materi/modul-4/SegmentasiDmzViewer';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 
 const MODULE_ID = 'modul-4';

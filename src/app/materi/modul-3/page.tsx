@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
 import { MnemonikAuthVsAuthz } from '@/components/materi/mnemonik/modul-3/MnemonikAuthVsAuthz';
 import { MnemonikMfa } from '@/components/materi/mnemonik/modul-3/MnemonikMfa';
-import { TabelRbacViewer } from '@/components/materi/TabelRbacViewer';
+import { TabelRbacViewer } from '@/components/materi/modul-3/TabelRbacViewer';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 
 const MODULE_ID = 'modul-3';

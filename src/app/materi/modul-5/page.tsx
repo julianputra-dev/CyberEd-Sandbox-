@@ -8,9 +8,9 @@ import { useProgressStore, decodeId } from '@/store/useProgressStore';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
-import { TaksonomiMalwareViewer } from '@/components/materi/TaksonomiMalwareViewer';
+import { TaksonomiMalwareViewer } from '@/components/materi/modul-5/TaksonomiMalwareViewer';
 import { MnemonikReverseShellRat } from '@/components/materi/mnemonik/modul-5/MnemonikReverseShellRat';
-import { TriaseProsesIocViewer } from '@/components/materi/TriaseProsesIocViewer';
+import { TriaseProsesIocViewer } from '@/components/materi/modul-5/TriaseProsesIocViewer';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 
 const MODULE_ID = 'modul-5';
