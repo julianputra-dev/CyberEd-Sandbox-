@@ -8,8 +8,8 @@ import { useProgressStore, decodeId } from '@/store/useProgressStore';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
-import { MnemonikAuthVsAuthz } from '@/components/materi/mnemonik/MnemonikAuthVsAuthz';
-import { MnemonikMfa } from '@/components/materi/mnemonik/MnemonikMfa';
+import { MnemonikAuthVsAuthz } from '@/components/materi/mnemonik/modul-3/MnemonikAuthVsAuthz';
+import { MnemonikMfa } from '@/components/materi/mnemonik/modul-3/MnemonikMfa';
 import { TabelRbacViewer } from '@/components/materi/TabelRbacViewer';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 

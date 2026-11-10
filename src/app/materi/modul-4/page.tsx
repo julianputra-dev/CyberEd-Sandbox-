@@ -8,10 +8,10 @@ import { useProgressStore, decodeId } from '@/store/useProgressStore';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
-import { MnemonikPortAnalog } from '@/components/materi/mnemonik/MnemonikPortAnalog';
+import { MnemonikPortAnalog } from '@/components/materi/mnemonik/modul-4/MnemonikPortAnalog';
 import { TabelPortProtocol } from '@/components/materi/TabelPortProtocol';
 import { GenerasiFirewallViewer } from '@/components/materi/GenerasiFirewallViewer';
-import { MnemonikFirewallConveyor } from '@/components/materi/mnemonik/MnemonikFirewallConveyor';
+import { MnemonikFirewallConveyor } from '@/components/materi/mnemonik/modul-4/MnemonikFirewallConveyor';
 import { SegmentasiDmzViewer } from '@/components/materi/SegmentasiDmzViewer';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 

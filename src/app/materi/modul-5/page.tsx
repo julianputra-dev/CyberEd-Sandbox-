@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
 import { TaksonomiMalwareViewer } from '@/components/materi/TaksonomiMalwareViewer';
-import { MnemonikReverseShellRat } from '@/components/materi/mnemonik/MnemonikReverseShellRat';
+import { MnemonikReverseShellRat } from '@/components/materi/mnemonik/modul-5/MnemonikReverseShellRat';
 import { TriaseProsesIocViewer } from '@/components/materi/TriaseProsesIocViewer';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 

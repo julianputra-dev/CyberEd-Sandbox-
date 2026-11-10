@@ -8,9 +8,9 @@ import { useProgressStore, decodeId } from '@/store/useProgressStore';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
-import { MnemonikConfidentiality } from '@/components/materi/mnemonik/MnemonikConfidentiality';
-import { MnemonikIntegrity } from '@/components/materi/mnemonik/MnemonikIntegrity';
-import { MnemonikAvailability } from '@/components/materi/mnemonik/MnemonikAvailability';
+import { MnemonikConfidentiality } from '@/components/materi/mnemonik/modul-1/MnemonikConfidentiality';
+import { MnemonikIntegrity } from '@/components/materi/mnemonik/modul-1/MnemonikIntegrity';
+import { MnemonikAvailability } from '@/components/materi/mnemonik/modul-1/MnemonikAvailability';
 import { RiskMatrixDemo } from '@/components/materi/RiskMatrixDemo';
 import { ModulCtaCard } from '@/components/materi/ModulCtaCard';
 

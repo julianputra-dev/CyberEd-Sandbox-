@@ -28,7 +28,7 @@ import { useProgressStore, decodeId } from '@/store/useProgressStore';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { TooltipText } from '@/components/materi/TooltipText';
-import { MnemonikGembokSqli } from '@/components/materi/mnemonik/MnemonikGembokSqli';
+import { MnemonikGembokSqli } from '@/components/materi/mnemonik/modul-6/MnemonikGembokSqli';
 import { VisualisatorXssViewer } from '@/components/materi/VisualisatorXssViewer';
 import { OwaspTop10Explorer } from '@/components/materi/OwaspTop10Explorer';
 import { PipelineSanitasiKueri } from '@/components/materi/PipelineSanitasiKueri';
